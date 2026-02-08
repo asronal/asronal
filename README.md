@@ -25,14 +25,14 @@
 - Java  
 
 **AI / ML**
-- TensorFlow  
+- TensorFlow (basics)
 - OpenCV (basics)  
 - YOLO (ONNX / NCNN)  
 - Model optimization for edge devices  
 
 **Embedded & Hardware**
 - Raspberry Pi  
-- ESP8266  
+- ESP32  
 - Arduino  
 
 **PCB Design**
