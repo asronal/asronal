@@ -9,7 +9,7 @@
 ## 🔍 About Me
 
 - 🧠 Exploring **AI + Embedded Systems**
-- 🔧 Hands-on with **Raspberry Pi, ESP8266, Arduino**
+- 🔧 Hands-on with **Raspberry Pi, ESP8266, ESP32, Arduino**
 - 📷 Building **real-time object detection** systems on low-power hardware
 - 🧪 Familiar with **computer vision fundamentals using OpenCV**
 - 🧠 Experience with **TensorFlow for training and experimentation**
