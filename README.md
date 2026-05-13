@@ -10,7 +10,6 @@
 
 - 🧠 Exploring **AI + Embedded Systems**
 - 🔧 Hands-on with **Raspberry Pi, ESP8266, ESP32, Arduino**
-- 📷 Building **real-time object detection** systems on low-power hardware
 - 🧪 Familiar with **computer vision fundamentals using OpenCV**
 - 🧠 Experience with **TensorFlow for training and experimentation**
 - 🖨️ Experience with **PCB design and hardware prototyping**
@@ -36,12 +35,14 @@
 **Programming**
 - Python  
 - Java  
+- C
 
 **AI / ML**
 - TensorFlow (basics)
 - OpenCV (basics)  
 - YOLO (ONNX / NCNN)  
 - Model optimization for edge devices  
+- Scikit-learn
 
 **Embedded & Hardware**
 - Raspberry Pi  
@@ -64,6 +65,9 @@
 
 - 📦 **Edge Object Detection System**  
   Lightweight YOLO inference using ONNX on Raspberry Pi (≈5–7 FPS).
+
+- 🛩️ **SkyNetics SAR Drone**
+  Designed a drone with triple sensor fusion (RGB Camera,Thermal Camera and mmWave) connect to a Pi4 and helps with robust human presence and survivor detection. 
 
 - 🔌 **Custom Embedded Hardware Boards**  
   Designed PCBs for embedded applications including power management and microcontroller-based systems.
