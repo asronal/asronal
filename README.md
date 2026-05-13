@@ -66,7 +66,7 @@
 - 📦 **Edge Object Detection System**  
   Lightweight YOLO inference using ONNX on Raspberry Pi (≈5–7 FPS).
 
-- 🛩️ **SkyNetics SAR Drone**
+- 🛩️ **SkyNetics SAR Drone**                             
   Designed a drone with triple sensor fusion (RGB Camera,Thermal Camera and mmWave) connect to a Pi4 and helps with robust human presence and survivor detection. 
 
 - 🔌 **Custom Embedded Hardware Boards**  
