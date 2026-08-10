@@ -6,113 +6,211 @@
 </picture>
 
 <a href="https://linkedin.com/in/asronal"><img src="https://img.shields.io/badge/LINKEDIN-0d1117?style=flat-square&logo=linkedin&logoColor=ffffff" alt="LinkedIn"></a>
-<a href="mailto:asronal@gmail.com"><img src="https://img.shields.io/badge/EMAIL-0d1117?style=flat-square&logo=gmail&logoColor=ffffff" alt="Email"></a>
 <a href="https://github.com/asronal"><img src="https://img.shields.io/badge/GITHUB-0d1117?style=flat-square&logo=github&logoColor=ffffff" alt="GitHub"></a>
 
 </div>
 
-<picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/about.svg"><img src="assets/about.svg" width="100%" alt="About"></picture>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/dark/about.svg">
+  <img src="assets/about.svg" width="100%" alt="Whoami — VLSI and Embedded Systems">
+</picture>
 
-### `whoami`
+## 01 — WHOAMI
 
 ECE student focused on **VLSI / RTL design and embedded systems**, with hands-on work across digital design, RISC-V architecture, ASIC synthesis, Raspberry Pi, Edge AI and hardware-software integration.
 
-Currently looking for **VLSI, RTL/ASIC, FPGA and Embedded Systems internships and entry-level opportunities**.
+Currently looking for **VLSI, RTL/ASIC, FPGA and Embedded Systems internships**.
 
-<picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/projects.svg"><img src="assets/projects.svg" width="100%" alt="Featured projects"></picture>
+---
 
-## Featured Projects
+## 02 — FEATURED PROJECTS
 
-### [RV64-AI-MCU](https://github.com/asronal/RV64-AI-MCU)
-**Custom RV64 AI-oriented MCU/SoC — RTL & ASIC Design**
+<table>
+<tr>
+<td width="33%" valign="top">
 
-- RV64IMC-based 5-stage processor architecture
-- DSP subsystem with SIMD and MAC acceleration
-- INT8 TPU with a 16×16 systolic array
-- SRAM, ROM, cache and QSPI/PSRAM interfaces
-- GPIO, UART, SPI, I²C, PWM, ADC, DMA, USB and CAN FD peripherals
-- Security, debug, trace and performance-monitoring blocks
-- Verilog RTL, testbench, SDC constraints and Synopsys Design Compiler flow
+### RV64-AI-MCU
 
-> **Status:** Active development; RTL integration and verification are ongoing.
+**Custom RV64 AI-oriented MCU/SoC**
 
-### [SkyNetics Rescue Drone](https://github.com/asronal/SkyNetics-RAS-drone)
-**Embedded Multi-Sensor Search-and-Rescue Platform**
+- RV64IMC 5-stage CPU
+- DSP, SIMD and MAC acceleration
+- INT8 TPU / 16×16 systolic array
+- SRAM, ROM and cache
+- QSPI/PSRAM interfaces
+- GPIO, UART, SPI, I²C, PWM, ADC, DMA, USB, CAN FD
+- Verilog RTL + Synopsys Design Compiler
+
+[View repository →](https://github.com/asronal/RV64-AI-MCU)
+
+</td>
+<td width="33%" valign="top">
+
+### SkyNetics Rescue Drone
+
+**Embedded multi-sensor SAR platform**
 
 - Raspberry Pi 4 onboard processing
 - RGB + thermal + mmWave sensing
-- MLX90640 thermal array and LD2450 radar
+- MLX90640 thermal array
+- LD2450 radar
 - YOLO-based human detection
-- Sensor-fusion pipeline for survivor detection
-- Flight-controller telemetry and live OSD
-- Embedded Linux deployment and hardware integration
+- Sensor fusion
+- Flight-controller telemetry and OSD
+- Embedded Linux deployment
 
-### [Obstacle & Pothole Detection](https://github.com/asronal/Obstacle-and-Pothole-detection-model)
-**Real-Time Edge AI on Raspberry Pi**
+[View repository →](https://github.com/asronal/SkyNetics-RAS-drone)
 
-- YOLOv8n deployed through ONNX
-- Raspberry Pi camera and USB/video/image inputs
-- Real-time obstacle and pothole detection
-- CPU-optimized inference reaching approximately **5–7 FPS** on Raspberry Pi 4
-- Model deployment and computer-vision pipeline development
+</td>
+<td width="33%" valign="top">
 
-<picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/vlsi.svg"><img src="assets/vlsi.svg" width="100%" alt="VLSI and digital design"></picture>
+### Obstacle & Pothole Detection
 
-## VLSI / Digital Design
+**Real-time Edge AI on Raspberry Pi**
 
-### RTL & Computer Architecture
+- YOLOv8n + ONNX
+- Raspberry Pi camera / USB / video inputs
+- Obstacle and pothole detection
+- CPU-optimized inference
+- Approximately **5–7 FPS** on Raspberry Pi 4
+- Real-time computer-vision pipeline
 
-- Verilog / SystemVerilog
+[View repository →](https://github.com/asronal/Obstacle-and-Pothole-detection-model)
+
+</td>
+</tr>
+</table>
+
+---
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/dark/vlsi.svg">
+  <img src="assets/vlsi.svg" width="100%" alt="VLSI and digital design">
+</picture>
+
+## 03 — VLSI / DIGITAL DESIGN
+
+<table>
+<tr>
+<td width="35%" valign="top">
+
+### RTL & Architecture
+
+- Verilog
 - RISC-V ISA and processor architecture
-- 5-stage pipelined CPU design
-- Hazard detection, forwarding and pipeline control
+- 5-stage pipelined CPU
+- Hazard detection and forwarding
 - Branch prediction and BTB concepts
-- Memory subsystem and cache architecture
+- Cache and memory subsystem
 - AXI-Lite-style interconnects
 - DSP, SIMD and MAC architectures
 - INT8 AI accelerator / TPU architecture
 
-### ASIC Design Flow
+</td>
+<td width="25%" valign="top">
+
+### ASIC Flow
 
 - RTL synthesis
 - Synopsys Design Compiler
 - SDC timing constraints
-- Area, timing and QoR analysis
+- Area / timing / QoR analysis
 - Simulation and waveform analysis
-- RTL-to-synthesis handoff preparation
+- RTL-to-synthesis preparation
+
+</td>
+<td width="25%" valign="top">
 
 ### Verification
 
 - Verilog testbenches
 - Icarus Verilog
 - GTKWave
-- Functional simulation and debugging
-- Testbench-driven RTL validation
+- Functional simulation
+- RTL debugging
+- Testbench-driven validation
 
-<picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/embedded.svg"><img src="assets/embedded.svg" width="100%" alt="Embedded systems"></picture>
+</td>
+<td width="15%" valign="top">
 
-## Embedded Systems
+### Tools
+
+`Verilog`  
+`RISC-V`  
+`Icarus`  
+`GTKWave`  
+`Synopsys DC`
+
+</td>
+</tr>
+</table>
+
+---
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/dark/embedded.svg">
+  <img src="assets/embedded.svg" width="100%" alt="Embedded systems and PCB">
+</picture>
+
+## 04 — EMBEDDED SYSTEMS
+
+<table>
+<tr>
+<td width="50%" valign="top">
+
+### Platforms
 
 - Raspberry Pi 4
 - ESP32 / ESP8266
 - Arduino
 - Embedded Linux
-- Python and C
-- UART, SPI, I²C, GPIO, PWM
-- Camera and sensor integration
+- C and Python
+
+### Interfaces
+
+- UART
+- SPI
+- I²C
+- GPIO
+- PWM
+- Camera and sensor interfaces
+
+</td>
+<td width="50%" valign="top">
+
+### Hardware Integration
+
 - Flight-controller communication
+- GPS and sensor integration
+- Thermal and mmWave sensors
+- Camera pipelines
 - Hardware/software integration
 - Edge inference on resource-constrained devices
 
-<picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/stack.svg"><img src="assets/stack.svg" width="100%" alt="Technical stack"></picture>
+### Supporting Technologies
 
-## Technical Stack
+`OpenCV` `YOLO` `ONNX` `NCNN` `TensorFlow` `PyTorch`
+
+</td>
+</tr>
+</table>
+
+---
+
+## 05 — TECHNICAL STACK
+
+<table>
+<tr>
+<td width="50%" valign="top">
 
 **Languages**  
-`C` `Python` `Verilog` `SystemVerilog`
+`C` `Python` `Verilog`
 
 **VLSI / Hardware**  
-`RISC-V` `RTL` `ASIC` `FPGA` `Synopsys Design Compiler` `SDC`
+`RISC-V` `RTL` `ASIC` `FPGA` `SDC` `Synopsys Design Compiler`
+
+</td>
+<td width="50%" valign="top">
 
 **Verification**  
 `Icarus Verilog` `GTKWave` `Testbenches`
@@ -121,20 +219,24 @@ Currently looking for **VLSI, RTL/ASIC, FPGA and Embedded Systems internships an
 `Raspberry Pi` `ESP32` `Arduino` `Embedded Linux`
 
 **Edge AI**  
-`OpenCV` `PyTorch` `TensorFlow` `ONNX` `YOLO` `NCNN`
+`OpenCV` `YOLO` `ONNX` `NCNN` `TensorFlow` `PyTorch`
 
-<picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/current.svg"><img src="assets/current.svg" width="100%" alt="Current work"></picture>
+</td>
+</tr>
+</table>
 
-## Current Work
+## 06 — CURRENTLY WORKING ON
 
-- Developing a custom **RV64 AI-oriented MCU/SoC** in RTL
-- Improving processor pipeline and memory-system design
-- Working on DSP and hardware AI acceleration
-- Learning deeper **ASIC design and physical-design concepts**
-- Building embedded systems around Raspberry Pi and microcontrollers
-- Exploring efficient Edge AI deployment on embedded hardware
+- **RV64-AI-MCU** — processor integration and RTL verification
+- **CPU architecture** — pipeline, hazards, memory system and cache design
+- **Hardware acceleration** — DSP, SIMD, MAC and INT8 AI acceleration
+- **ASIC design** — synthesis, timing constraints and physical-design concepts
+- **Embedded systems** — Raspberry Pi and microcontroller-based platforms
+- **Edge AI** — efficient inference on resource-constrained hardware
 
-## GitHub Activity
+---
+
+## 07 — GITHUB ACTIVITY
 
 <div align="center">
 
@@ -142,19 +244,38 @@ Currently looking for **VLSI, RTL/ASIC, FPGA and Embedded Systems internships an
 
 </div>
 
-## Open To
+---
+
+## 08 — OPEN TO
+
+<table>
+<tr>
+<td width="50%">
 
 - **VLSI / RTL Design internships**
 - **ASIC Design internships**
 - **FPGA / Digital Design internships**
 - **VLSI Verification internships**
+
+</td>
+<td width="50%">
+
 - **Embedded Systems internships**
 - Embedded firmware roles
 - Hardware-software integration roles
-- Research opportunities in computer architecture and hardware acceleration
+- Research in computer architecture and hardware acceleration
+
+</td>
+</tr>
+</table>
 
 <div align="center">
 
-> **Building systems from RTL to embedded hardware.**
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/dark/current.svg">
+  <img src="assets/current.svg" width="100%" alt="Current work">
+</picture>
+
+**Building systems from RTL to embedded hardware.**
 
 </div>
