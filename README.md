@@ -6,8 +6,8 @@ I am an ECE student focused on building **hardware-integrated, compute-efficient
 
 My work spans from deploying computer-vision models on Raspberry Pi to designing RTL for a custom **RV64 AI-oriented MCU/SoC**.
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/asronal)
-[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/asronal)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-555555?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/asronal)
+[![GitHub](https://img.shields.io/badge/GitHub-333333?style=for-the-badge&logo=github&logoColor=white)](https://github.com/asronal)
 
 ---
 
@@ -64,24 +64,24 @@ My work spans from deploying computer-vision models on Raspberry Pi to designing
 
 ### Programming
 
-![C](https://img.shields.io/badge/C-A8B9CC?style=for-the-badge&logo=c&logoColor=black)
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![Verilog](https://img.shields.io/badge/Verilog-1F425F?style=for-the-badge)
-![SystemVerilog](https://img.shields.io/badge/SystemVerilog-1F425F?style=for-the-badge)
+![C](https://img.shields.io/badge/C-777777?style=for-the-badge&logo=c&logoColor=white)
+![Python](https://img.shields.io/badge/Python-666666?style=for-the-badge&logo=python&logoColor=white)
+![Verilog](https://img.shields.io/badge/Verilog-555555?style=for-the-badge&logoColor=white)
+![SystemVerilog](https://img.shields.io/badge/SystemVerilog-555555?style=for-the-badge&logoColor=white)
 
 ### Embedded & Hardware
 
-![Raspberry Pi](https://img.shields.io/badge/Raspberry%20Pi-C51A4A?style=for-the-badge&logo=raspberry-pi&logoColor=white)
-![ESP32](https://img.shields.io/badge/ESP32-E7352C?style=for-the-badge&logo=espressif&logoColor=white)
-![Arduino](https://img.shields.io/badge/Arduino-00979D?style=for-the-badge&logo=arduino&logoColor=white)
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
+![Raspberry Pi](https://img.shields.io/badge/Raspberry%20Pi-555555?style=for-the-badge&logo=raspberry-pi&logoColor=white)
+![ESP32](https://img.shields.io/badge/ESP32-666666?style=for-the-badge&logo=espressif&logoColor=white)
+![Arduino](https://img.shields.io/badge/Arduino-777777?style=for-the-badge&logo=arduino&logoColor=white)
+![Linux](https://img.shields.io/badge/Linux-444444?style=for-the-badge&logo=linux&logoColor=white)
 
 ### Edge AI & Computer Vision
 
-![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=for-the-badge&logo=opencv&logoColor=white)
-![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)
-![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white)
-![ONNX](https://img.shields.io/badge/ONNX-005CED?style=for-the-badge&logo=onnx&logoColor=white)
+![OpenCV](https://img.shields.io/badge/OpenCV-555555?style=for-the-badge&logo=opencv&logoColor=white)
+![PyTorch](https://img.shields.io/badge/PyTorch-666666?style=for-the-badge&logo=pytorch&logoColor=white)
+![TensorFlow](https://img.shields.io/badge/TensorFlow-777777?style=for-the-badge&logo=tensorflow&logoColor=white)
+![ONNX](https://img.shields.io/badge/ONNX-444444?style=for-the-badge&logo=onnx&logoColor=white)
 
 **Focus:** YOLO, ONNX/NCNN deployment, model optimization, real-time inference, sensor fusion and TinyML.
 
@@ -98,9 +98,9 @@ My work spans from deploying computer-vision models on Raspberry Pi to designing
 
 ### Tools
 
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
-![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
-![VS Code](https://img.shields.io/badge/VS%20Code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white)
+![Git](https://img.shields.io/badge/Git-555555?style=for-the-badge&logo=git&logoColor=white)
+![GitHub](https://img.shields.io/badge/GitHub-333333?style=for-the-badge&logo=github&logoColor=white)
+![VS Code](https://img.shields.io/badge/VS%20Code-666666?style=for-the-badge&logo=visual-studio-code&logoColor=white)
 
 ---
 
@@ -138,13 +138,13 @@ Embedded Systems
 
 ## GitHub Stats
 
-![](https://github-readme-stats.vercel.app/api?username=asronal&theme=graywhite&hide_border=false&include_all_commits=false&count_private=false)
+![](https://github-readme-stats.vercel.app/api?username=asronal&theme=graywhite&hide_border=true&include_all_commits=false&count_private=false&title_color=333333&text_color=555555&icon_color=777777&bg_color=f5f5f5)
 
-![](https://nirzak-streak-stats.vercel.app/?user=asronal&theme=default&hide_border=false&background=FFFFFF&ring=555555&fire=777777&currStreakLabel=333333&sideLabels=555555&currStreakNum=333333&sideNums=333333&dates=777777)
+![](https://nirzak-streak-stats.vercel.app/?user=asronal&theme=default&hide_border=true&background=F5F5F5&ring=666666&fire=888888&currStreakLabel=444444&sideLabels=666666&currStreakNum=444444&sideNums=444444&dates=888888)
 
-![](https://github-readme-stats.vercel.app/api/top-langs/?username=asronal&theme=graywhite&hide_border=false&include_all_commits=false&count_private=false&layout=compact)
+![](https://github-readme-stats.vercel.app/api/top-langs/?username=asronal&theme=graywhite&hide_border=true&include_all_commits=false&count_private=false&layout=compact&title_color=333333&text_color=555555&icon_color=777777&bg_color=f5f5f5)
 
-![GitHub Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=asronal&bg_color=000000&color=ffffff&line=ffffff&point=ffffff&area=true&area_color=ffffff&hide_border=true&custom_title=CONTRIBUTION%20TELEMETRY)
+![GitHub Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=asronal&bg_color=f5f5f5&color=555555&line=666666&point=333333&area=true&area_color=d9d9d9&hide_border=true&custom_title=CONTRIBUTION%20TELEMETRY)
 
 ---
 
@@ -156,8 +156,6 @@ Embedded Systems
 - RTL / FPGA / Digital Design internships
 - Research and engineering collaborations
 - Open-source hardware and software projects
-
----
 
 ## Contact
 
