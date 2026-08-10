@@ -197,20 +197,17 @@ Currently looking for **VLSI, RTL/ASIC, FPGA and Embedded Systems internships**.
 
 ---
 
-## 05 — TECHNICAL STACK
-
 <table>
 <tr>
 <td width="50%" valign="top">
+
+## 05 — TECHNICAL STACK
 
 **Languages**  
 `C` `Python` `Verilog`
 
 **VLSI / Hardware**  
 `RISC-V` `RTL` `ASIC` `FPGA` `SDC` `Synopsys Design Compiler`
-
-</td>
-<td width="50%" valign="top">
 
 **Verification**  
 `Icarus Verilog` `GTKWave` `Testbenches`
@@ -222,8 +219,7 @@ Currently looking for **VLSI, RTL/ASIC, FPGA and Embedded Systems internships**.
 `OpenCV` `YOLO` `ONNX` `NCNN` `TensorFlow` `PyTorch`
 
 </td>
-</tr>
-</table>
+<td width="50%" valign="top">
 
 ## 06 — CURRENTLY WORKING ON
 
@@ -234,32 +230,31 @@ Currently looking for **VLSI, RTL/ASIC, FPGA and Embedded Systems internships**.
 - **Embedded systems** — Raspberry Pi and microcontroller-based platforms
 - **Edge AI** — efficient inference on resource-constrained hardware
 
+</td>
+</tr>
+</table>
+
 ---
+
+<table>
+<tr>
+<td width="65%" valign="top">
 
 ## 07 — GITHUB ACTIVITY
 
 <div align="center">
-
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=asronal&bg_color=00000000&color=888888&line=888888&point=555555&area_color=888888&area=true&hide_border=true&radius=6&custom_title=CONTRIBUTION%20TELEMETRY" width="97%" alt="GitHub contribution activity">
-
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=asronal&bg_color=00000000&color=888888&line=888888&point=555555&area_color=888888&area=true&hide_border=true&radius=6&custom_title=CONTRIBUTION%20TELEMETRY" width="100%" alt="GitHub contribution activity">
 </div>
 
----
+</td>
+<td width="35%" valign="top">
 
 ## 08 — OPEN TO
-
-<table>
-<tr>
-<td width="50%">
 
 - **VLSI / RTL Design internships**
 - **ASIC Design internships**
 - **FPGA / Digital Design internships**
 - **VLSI Verification internships**
-
-</td>
-<td width="50%">
-
 - **Embedded Systems internships**
 - Embedded firmware roles
 - Hardware-software integration roles
