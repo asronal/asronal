@@ -144,7 +144,7 @@ Embedded Systems
 
 ![](https://github-readme-stats.vercel.app/api/top-langs/?username=asronal&theme=graywhite&hide_border=false&include_all_commits=false&count_private=false&layout=compact)
 
-![GitHub Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=asronal&bg_color=ffffff&color=555555&line=555555&point=333333&area=true&hide_border=true)
+![GitHub Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=asronal&bg_color=000000&color=ffffff&line=ffffff&point=ffffff&area=true&area_color=ffffff&hide_border=true&custom_title=CONTRIBUTION%20TELEMETRY)
 
 ---
 
