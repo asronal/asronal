@@ -155,38 +155,9 @@ I am primarily looking for **VLSI, RTL/ASIC, FPGA and Embedded Systems internshi
 
 ---
 
-## Engineering Direction
+## GitHub Activity
 
-```text
-                    ECE
-                     │
-          ┌──────────┴──────────┐
-          │                     │
-        VLSI                Embedded
-          │                     │
-    ┌─────┼─────┐         ┌─────┼─────┐
-    │     │     │         │     │     │
-   RTL  RISC-V ASIC      MCU    Linux Edge AI
-    │     │     │         │     │     │
-    └─────┼─────┘         └─────┼─────┘
-          │                     │
-       Computer             Hardware-
-      Architecture          Software
-          │                 Integration
-          └──────────┬──────────┘
-                     │
-             Efficient Systems
-```
-
----
-
-## GitHub Stats
-
-![](https://github-readme-stats.vercel.app/api?username=asronal&theme=radical&hide_border=false&include_all_commits=false&count_private=false)
-
-![](https://nirzak-streak-stats.vercel.app/?user=asronal&theme=radical&hide_border=false)
-
-![](https://github-readme-stats.vercel.app/api/top-langs/?username=asronal&theme=radical&hide_border=false&include_all_commits=false&count_private=false&layout=compact)
+[![GitHub Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=asronal&theme=react-dark&hide_border=true)](https://github.com/asronal)
 
 ---
 
