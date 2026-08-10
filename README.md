@@ -138,13 +138,13 @@ Embedded Systems
 
 ## GitHub Stats
 
-![](https://github-readme-stats.vercel.app/api?username=asronal&theme=radical&hide_border=false&include_all_commits=false&count_private=false)
+![](https://github-readme-stats.vercel.app/api?username=asronal&theme=graywhite&hide_border=false&include_all_commits=false&count_private=false)
 
-![](https://nirzak-streak-stats.vercel.app/?user=asronal&theme=radical&hide_border=false)
+![](https://nirzak-streak-stats.vercel.app/?user=asronal&theme=default&hide_border=false&background=FFFFFF&ring=555555&fire=777777&currStreakLabel=333333&sideLabels=555555&currStreakNum=333333&sideNums=333333&dates=777777)
 
-![](https://github-readme-stats.vercel.app/api/top-langs/?username=asronal&theme=radical&hide_border=false&include_all_commits=false&count_private=false&layout=compact)
+![](https://github-readme-stats.vercel.app/api/top-langs/?username=asronal&theme=graywhite&hide_border=false&include_all_commits=false&count_private=false&layout=compact)
 
-![GitHub Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=asronal&theme=react-dark&hide_border=true&area=true)
+![GitHub Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=asronal&bg_color=ffffff&color=555555&line=555555&point=333333&area=true&hide_border=true)
 
 ---
 
