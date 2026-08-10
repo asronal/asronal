@@ -1,276 +1,167 @@
-<div align="center">
+# Asron A.L
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/dark/header.svg">
-  <img src="assets/header.svg" alt="Asron A.L — VLSI and Embedded Systems">
-</picture>
+### Electronics & Communication Engineering | Embedded Systems | Edge AI | Digital Design
 
-<a href="https://linkedin.com/in/asronal"><img src="https://img.shields.io/badge/LINKEDIN-0d1117?style=flat-square&logo=linkedin&logoColor=ffffff" alt="LinkedIn"></a>
-<a href="https://github.com/asronal"><img src="https://img.shields.io/badge/GITHUB-0d1117?style=flat-square&logo=github&logoColor=ffffff" alt="GitHub"></a>
+I am an ECE student focused on building **hardware-integrated, compute-efficient systems** at the intersection of embedded systems, edge AI, robotics, and computer architecture.
 
-</div>
+My work spans from deploying computer-vision models on Raspberry Pi to designing RTL for a custom **RV64 AI-oriented MCU/SoC**.
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/dark/about.svg">
-  <img src="assets/about.svg" width="100%" alt="Whoami — VLSI and Embedded Systems">
-</picture>
-
-## 01 — WHOAMI
-
-ECE student focused on **VLSI / RTL design and embedded systems**, with hands-on work across digital design, RISC-V architecture, ASIC synthesis, Raspberry Pi, Edge AI and hardware-software integration.
-
-Currently looking for **VLSI, RTL/ASIC, FPGA and Embedded Systems internships**.
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/asronal)
+[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/asronal)
 
 ---
 
-## 02 — FEATURED PROJECTS
+## Focus Areas
 
-<table>
-<tr>
-<td width="33%" valign="top">
+- **Embedded Systems** — Raspberry Pi, ESP32, microcontrollers, Linux
+- **Edge AI** — YOLO, ONNX, NCNN, OpenCV, model optimization
+- **Computer Vision** — real-time detection and vision pipelines
+- **Robotics & Drones** — multi-sensor systems and onboard processing
+- **Digital Design** — Verilog/SystemVerilog, RTL, RISC-V
+- **Computer Architecture** — pipelines, memory systems, DSP and AI accelerators
+- **ASIC Flow** — synthesis and timing analysis with Synopsys Design Compiler
 
-### RV64-AI-MCU
+---
 
-**Custom RV64 AI-oriented MCU/SoC**
+## Featured Projects
 
-- RV64IMC 5-stage CPU
-- DSP, SIMD and MAC acceleration
-- INT8 TPU / 16×16 systolic array
-- SRAM, ROM and cache
-- QSPI/PSRAM interfaces
-- GPIO, UART, SPI, I²C, PWM, ADC, DMA, USB, CAN FD
-- Verilog RTL + Synopsys Design Compiler
+### [RV64-AI-MCU](https://github.com/asronal/RV64-AI-MCU)
+**Custom RV64 AI-oriented MCU/SoC — RTL & ASIC design**
 
-[View repository →](https://github.com/asronal/RV64-AI-MCU)
+- RV64IMC-based 5-stage processor architecture
+- DSP subsystem with SIMD and MAC acceleration
+- INT8 TPU with a 16×16 systolic array
+- SRAM, ROM, cache and QSPI/PSRAM interfaces
+- GPIO, UART, SPI, I²C, PWM, ADC, DMA, USB and CAN FD peripherals
+- Security, debug, trace and performance-monitoring blocks
+- Verilog RTL, simulation, SDC constraints and Synopsys Design Compiler flow
 
-</td>
-<td width="33%" valign="top">
+> **Status:** Active development; verification and RTL integration are ongoing.
 
-### SkyNetics Rescue Drone
-
-**Embedded multi-sensor SAR platform**
+### [SkyNetics Rescue Drone](https://github.com/asronal/SkyNetics-RAS-drone)
+**Multi-sensor aerial search-and-rescue platform**
 
 - Raspberry Pi 4 onboard processing
 - RGB + thermal + mmWave sensing
-- MLX90640 thermal array
-- LD2450 radar
+- MLX90640 thermal array and LD2450 radar
 - YOLO-based human detection
-- Sensor fusion
-- Flight-controller telemetry and OSD
-- Embedded Linux deployment
+- Sensor-fusion pipeline for survivor detection
+- Live telemetry and OSD through FPV video system
+- Designed for low-connectivity and low-visibility environments
 
-[View repository →](https://github.com/asronal/SkyNetics-RAS-drone)
+### [Obstacle & Pothole Detection](https://github.com/asronal/Obstacle-and-Pothole-detection-model)
+**Real-time Edge AI road perception system**
 
-</td>
-<td width="33%" valign="top">
-
-### Obstacle & Pothole Detection
-
-**Real-time Edge AI on Raspberry Pi**
-
-- YOLOv8n + ONNX
-- Raspberry Pi camera / USB / video inputs
-- Obstacle and pothole detection
-- CPU-optimized inference
-- Approximately **5–7 FPS** on Raspberry Pi 4
-- Real-time computer-vision pipeline
-
-[View repository →](https://github.com/asronal/Obstacle-and-Pothole-detection-model)
-
-</td>
-</tr>
-</table>
+- YOLOv8n model deployed through ONNX
+- Raspberry Pi camera and USB/video/image inputs
+- Real-time obstacle and pothole detection
+- Spatial filtering and detection cooldown logic
+- CPU-optimized inference reaching approximately **5–7 FPS** on Raspberry Pi 4
 
 ---
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/dark/vlsi.svg">
-  <img src="assets/vlsi.svg" width="100%" alt="VLSI and digital design">
-</picture>
+## Technical Stack
 
-## 03 — VLSI / DIGITAL DESIGN
+### Programming
 
-<table>
-<tr>
-<td width="35%" valign="top">
+![C](https://img.shields.io/badge/C-A8B9CC?style=for-the-badge&logo=c&logoColor=black)
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![Verilog](https://img.shields.io/badge/Verilog-1F425F?style=for-the-badge)
+![SystemVerilog](https://img.shields.io/badge/SystemVerilog-1F425F?style=for-the-badge)
 
-### RTL & Architecture
+### Embedded & Hardware
 
-- Verilog
-- RISC-V ISA and processor architecture
-- 5-stage pipelined CPU
-- Hazard detection and forwarding
-- Branch prediction and BTB concepts
-- Cache and memory subsystem
-- AXI-Lite-style interconnects
+![Raspberry Pi](https://img.shields.io/badge/Raspberry%20Pi-C51A4A?style=for-the-badge&logo=raspberry-pi&logoColor=white)
+![ESP32](https://img.shields.io/badge/ESP32-E7352C?style=for-the-badge&logo=espressif&logoColor=white)
+![Arduino](https://img.shields.io/badge/Arduino-00979D?style=for-the-badge&logo=arduino&logoColor=white)
+![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
+
+### Edge AI & Computer Vision
+
+![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=for-the-badge&logo=opencv&logoColor=white)
+![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)
+![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white)
+![ONNX](https://img.shields.io/badge/ONNX-005CED?style=for-the-badge&logo=onnx&logoColor=white)
+
+**Focus:** YOLO, ONNX/NCNN deployment, model optimization, real-time inference, sensor fusion and TinyML.
+
+### Digital Design & ASIC
+
+- RISC-V architecture and RTL design
+- Verilog/SystemVerilog
+- 5-stage CPU pipelines
 - DSP, SIMD and MAC architectures
-- INT8 AI accelerator / TPU architecture
-
-</td>
-<td width="25%" valign="top">
-
-### ASIC Flow
-
-- RTL synthesis
+- INT8 AI/TPU acceleration
+- Memory and peripheral subsystem design
 - Synopsys Design Compiler
-- SDC timing constraints
-- Area / timing / QoR analysis
-- Simulation and waveform analysis
-- RTL-to-synthesis preparation
-
-</td>
-<td width="25%" valign="top">
-
-### Verification
-
-- Verilog testbenches
-- Icarus Verilog
-- GTKWave
-- Functional simulation
-- RTL debugging
-- Testbench-driven validation
-
-</td>
-<td width="15%" valign="top">
+- Synthesis, timing constraints and QoR analysis
 
 ### Tools
 
-`Verilog`  
-`RISC-V`  
-`Icarus`  
-`GTKWave`  
-`Synopsys DC`
-
-</td>
-</tr>
-</table>
+![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
+![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
+![VS Code](https://img.shields.io/badge/VS%20Code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white)
 
 ---
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/dark/embedded.svg">
-  <img src="assets/embedded.svg" width="100%" alt="Embedded systems and PCB">
-</picture>
+## Current Work
 
-## 04 — EMBEDDED SYSTEMS
-
-<table>
-<tr>
-<td width="50%" valign="top">
-
-### Platforms
-
-- Raspberry Pi 4
-- ESP32 / ESP8266
-- Arduino
-- Embedded Linux
-- C and Python
-
-### Interfaces
-
-- UART
-- SPI
-- I²C
-- GPIO
-- PWM
-- Camera and sensor interfaces
-
-</td>
-<td width="50%" valign="top">
-
-### Hardware Integration
-
-- Flight-controller communication
-- GPS and sensor integration
-- Thermal and mmWave sensors
-- Camera pipelines
-- Hardware/software integration
-- Edge inference on resource-constrained devices
-
-### Supporting Technologies
-
-`OpenCV` `YOLO` `ONNX` `NCNN` `TensorFlow` `PyTorch`
-
-</td>
-</tr>
-</table>
+- Developing a custom **RV64 AI-oriented MCU/SoC** in RTL
+- Working on processor pipelines, memory systems and hardware accelerators
+- Exploring **TinyML and Edge AI acceleration**
+- Improving real-time ML inference on resource-constrained devices
+- Building hardware-integrated robotics and autonomous systems
 
 ---
 
-<table>
-<tr>
-<td width="50%" valign="top">
+## Engineering Interests
 
-## 05 — TECHNICAL STACK
-
-**Languages**  
-`C` `Python` `Verilog`
-
-**VLSI / Hardware**  
-`RISC-V` `RTL` `ASIC` `FPGA` `SDC` `Synopsys Design Compiler`
-
-**Verification**  
-`Icarus Verilog` `GTKWave` `Testbenches`
-
-**Embedded**  
-`Raspberry Pi` `ESP32` `Arduino` `Embedded Linux`
-
-**Edge AI**  
-`OpenCV` `YOLO` `ONNX` `NCNN` `TensorFlow` `PyTorch`
-
-</td>
-<td width="50%" valign="top">
-
-## 06 — CURRENTLY WORKING ON
-
-- **RV64-AI-MCU** — processor integration and RTL verification
-- **CPU architecture** — pipeline, hazards, memory system and cache design
-- **Hardware acceleration** — DSP, SIMD, MAC and INT8 AI acceleration
-- **ASIC design** — synthesis, timing constraints and physical-design concepts
-- **Embedded systems** — Raspberry Pi and microcontroller-based platforms
-- **Edge AI** — efficient inference on resource-constrained hardware
-
-</td>
-</tr>
-</table>
+```text
+Embedded Systems
+      │
+      ├── Edge AI ─────── Computer Vision
+      │                       │
+      │                       └── Real-time inference
+      │
+      ├── Robotics ─────── Multi-sensor systems
+      │                       │
+      │                       └── Autonomous platforms
+      │
+      └── Digital Design ── RISC-V / RTL
+                              │
+                              ├── DSP / SIMD
+                              ├── AI accelerators
+                              └── ASIC implementation
+```
 
 ---
 
-<table>
-<tr>
-<td width="65%" valign="top">
+## GitHub Stats
 
-## 07 — GITHUB ACTIVITY
+![](https://github-readme-stats.vercel.app/api?username=asronal&theme=radical&hide_border=false&include_all_commits=false&count_private=false)
 
-<div align="center">
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=asronal&bg_color=00000000&color=888888&line=888888&point=555555&area_color=888888&area=true&hide_border=true&radius=6&custom_title=CONTRIBUTION%20TELEMETRY" width="100%" alt="GitHub contribution activity">
-</div>
+![](https://nirzak-streak-stats.vercel.app/?user=asronal&theme=radical&hide_border=false)
 
-</td>
-<td width="35%" valign="top">
+![](https://github-readme-stats.vercel.app/api/top-langs/?username=asronal&theme=radical&hide_border=false&include_all_commits=false&count_private=false&layout=compact)
 
-## 08 — OPEN TO
+---
 
-- **VLSI / RTL Design internships**
-- **ASIC Design internships**
-- **FPGA / Digital Design internships**
-- **VLSI Verification internships**
-- **Embedded Systems internships**
-- Embedded firmware roles
-- Hardware-software integration roles
-- Research in computer architecture and hardware acceleration
+## Open To
 
-</td>
-</tr>
-</table>
+- Embedded Systems internships
+- Edge AI / Computer Vision internships
+- Robotics and autonomous-systems opportunities
+- RTL / FPGA / Digital Design internships
+- Research and engineering collaborations
+- Open-source hardware and software projects
 
-<div align="center">
+---
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/dark/current.svg">
-  <img src="assets/current.svg" width="100%" alt="Current work">
-</picture>
+## Contact
 
-**Building systems from RTL to embedded hardware.**
+**LinkedIn:** [linkedin.com/in/asronal](https://linkedin.com/in/asronal)  
+**GitHub:** [github.com/asronal](https://github.com/asronal)
 
-</div>
+---
+
+> Building systems from **sensor to software to silicon**.
