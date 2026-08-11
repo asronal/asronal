@@ -142,13 +142,13 @@ Hardware Acceleration
 ![C](https://img.shields.io/badge/C-222222?style=flat-square&logo=c&logoColor=white)
 ![Python](https://img.shields.io/badge/Python-222222?style=flat-square&logo=python&logoColor=white)
 ![Java](https://img.shields.io/badge/Java-222222?style=flat-square&logo=openjdk&logoColor=white)
-![Verilog](https://img.shields.io/badge/Verilog-222222?style=flat-square&logoColor=white)
+![Verilog](https://img.shields.io/badge/Verilog-222222?style=flat-square&logo=verilog&logoColor=white)
 
 ### Embedded & Hardware
 
 ![ARM](https://img.shields.io/badge/ARM-222222?style=flat-square&logo=arm&logoColor=white)
 ![Raspberry Pi](https://img.shields.io/badge/Raspberry%20Pi-222222?style=flat-square&logo=raspberrypi&logoColor=white)
-![NXP](https://img.shields.io/badge/NXP%20MCX-222222?style=flat-square&logoColor=white)
+![NXP MCX](https://img.shields.io/badge/NXP%20MCX-222222?style=flat-square&logoColor=white)
 ![STM32](https://img.shields.io/badge/STM32-222222?style=flat-square&logo=stmicroelectronics&logoColor=white)
 ![ESP32](https://img.shields.io/badge/ESP32-222222?style=flat-square&logo=espressif&logoColor=white)
 ![Linux](https://img.shields.io/badge/Linux-222222?style=flat-square&logo=linux&logoColor=white)
