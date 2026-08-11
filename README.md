@@ -25,7 +25,7 @@ My work ranges from deploying computer-vision models on resource-constrained dev
 
 | Area | Focus |
 |---|---|
-| **Embedded Systems** | Raspberry Pi · STM32 · ESP32 · Linux · sensor interfaces |
+| **Embedded Systems** | Raspberry Pi · NXP MCX · ARM Cortex-M33 · STM32 · ESP32 · Linux |
 | **Edge AI** | YOLO · ONNX · NCNN · OpenCV · TinyML · inference optimization |
 | **Computer Vision** | Real-time detection · vision pipelines · spatial filtering |
 | **Robotics** | Multi-sensor systems · aerial platforms · onboard processing |
@@ -147,10 +147,14 @@ Hardware Acceleration
 
 ### Embedded & Hardware
 
+![ARM](https://img.shields.io/badge/ARM-222222?style=flat-square&logo=arm&logoColor=white)
 ![Raspberry Pi](https://img.shields.io/badge/Raspberry%20Pi-222222?style=flat-square&logo=raspberrypi&logoColor=white)
+![NXP](https://img.shields.io/badge/NXP%20MCX-222222?style=flat-square&logoColor=white)
 ![STM32](https://img.shields.io/badge/STM32-222222?style=flat-square&logo=stmicroelectronics&logoColor=white)
 ![ESP32](https://img.shields.io/badge/ESP32-222222?style=flat-square&logo=espressif&logoColor=white)
 ![Linux](https://img.shields.io/badge/Linux-222222?style=flat-square&logo=linux&logoColor=white)
+
+**Current ARM learning:** NXP **FRDM-MCXN236** · Arm **Cortex-M33** · MCUXpresso SDK · MCUXpresso Extension for VS Code · peripheral and bare-metal development
 
 ### AI & Computer Vision
 
@@ -179,6 +183,13 @@ Hardware Acceleration
 <tr>
 <td width="33%" valign="top">
 
+**ARM / MCU Development**
+
+Learning embedded development on the **NXP FRDM-MCXN236**, using the Arm Cortex-M33, MCUXpresso SDK and MCUXpresso Extension for VS Code.
+
+</td>
+<td width="33%" valign="top">
+
 **RISC-V MCU / SoC**
 
 CPU architecture, RTL integration, memory systems, DSP and INT8 acceleration.
@@ -186,16 +197,9 @@ CPU architecture, RTL integration, memory systems, DSP and INT8 acceleration.
 </td>
 <td width="33%" valign="top">
 
-**Edge AI**
+**Edge AI & Robotics**
 
-Real-time computer vision, model optimization and TinyML on constrained hardware.
-
-</td>
-<td width="33%" valign="top">
-
-**Robotics**
-
-Multi-sensor perception, onboard processing and search-and-rescue systems.
+Real-time computer vision, model optimization, onboard processing and multi-sensor perception.
 
 </td>
 </tr>
@@ -234,7 +238,7 @@ Multi-sensor perception, onboard processing and search-and-rescue systems.
 
 <div align="center">
 
-### Embedded Systems · Edge AI · RISC-V · RTL · Robotics
+### Embedded Systems · ARM · Edge AI · RISC-V · RTL · Robotics
 
 **From sensors to software to silicon.**
 
