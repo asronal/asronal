@@ -211,17 +211,19 @@ Real-time computer vision, model optimization, onboard processing and multi-sens
 
 <div align="center">
 
-[![GitHub Stats](https://github-readme-stats.vercel.app/api?username=asronal&show_icons=true&hide_border=true&include_all_commits=false&count_private=false&rank_icon=github&cache_seconds=86400)](https://github.com/asronal)
+### Selected Repositories
 
-[![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=asronal&layout=compact&hide_border=true&langs_count=6&cache_seconds=86400)](https://github.com/asronal?tab=repositories)
+| Project | Focus | Status |
+|:---|:---|:---:|
+| **[RV64-AI-MCU](https://github.com/asronal/RV64-AI-MCU)** | RISC-V · RTL · DSP · AI acceleration | `ACTIVE` |
+| **[SkyNetics RAS Drone](https://github.com/asronal/SkyNetics-RAS-drone)** | Embedded · Robotics · Sensor fusion | `ACTIVE` |
+| **[Obstacle & Pothole Detection](https://github.com/asronal/Obstacle-and-Pothole-detection-model)** | YOLO · Edge AI · Computer Vision | `PROTOTYPE` |
+
+[![GitHub](https://img.shields.io/badge/Explore%20all%20repositories-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/asronal?tab=repositories)
 
 </div>
 
-<div align="center">
-
-**Explore the code →** [github.com/asronal](https://github.com/asronal)
-
-</div>
+> **Note:** The profile intentionally avoids third-party GitHub statistics cards so the README does not depend on an external stats service being available.
 
 ---
 
