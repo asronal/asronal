@@ -213,7 +213,7 @@ Real-time computer vision, model optimization, onboard processing and multi-sens
 
 ### Contribution Activity
 
-[![Asron's GitHub activity graph](https://github-readme-activity-graph.vercel.app/graph?username=asronal&theme=github-compact&hide_border=true&area=true)](https://github.com/asronal)
+[![Asron's GitHub activity graph](https://github-readme-activity-graph.vercel.app/graph?username=asronal&bg_color=0d1117&color=8b949e&line=8b949e&point=c9d1d9&area=true&area_color=484f58&hide_border=true)](https://github.com/asronal)
 
 ### Selected Repositories
 
