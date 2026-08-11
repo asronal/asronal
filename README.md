@@ -37,60 +37,101 @@ My work ranges from deploying computer-vision models on resource-constrained dev
 
 ## Featured Projects
 
-### 01 · [RV64-AI-MCU](https://github.com/asronal/RV64-AI-MCU)
+<table>
+<tr>
+<td width="50%" valign="top">
 
-**Custom RV64 AI-oriented MCU/SoC — RTL & ASIC design**
+### 01 · RV64-AI-MCU
 
-> Designing a RISC-V based microcontroller architecture with integrated DSP and AI acceleration.
+**Custom RV64 AI-oriented MCU/SoC**
 
-- RV64IMC-based **5-stage processor** architecture
-- DSP subsystem with **SIMD and MAC acceleration**
-- **INT8 TPU** with a 16×16 systolic array
-- SRAM, ROM, cache and QSPI/PSRAM interfaces
-- GPIO, UART, SPI, I²C, PWM, ADC, DMA, USB and CAN FD peripherals
-- Security, debug, trace and performance-monitoring blocks
-- Verilog RTL, simulation, SDC constraints and Synopsys Design Compiler flow
+A RISC-V based microcontroller architecture with integrated DSP and AI acceleration.
 
-`RISC-V` `Verilog` `RTL` `DSP` `AI Accelerator` `ASIC`
+- 5-stage RV64IMC CPU
+- SIMD + MAC DSP subsystem
+- 16×16 INT8 systolic TPU
+- SRAM / ROM / cache / QSPI / PSRAM
+- DMA, USB, CAN FD and common MCU peripherals
+- RTL → synthesis → timing flow
+
+`RISC-V` `Verilog` `RTL` `DSP` `ASIC`
+
+[**View repository →**](https://github.com/asronal/RV64-AI-MCU)
 
 **Status:** Active development
 
----
+</td>
+<td width="50%" valign="top">
 
-### 02 · [SkyNetics RAS Drone](https://github.com/asronal/SkyNetics-RAS-drone)
+### 02 · SkyNetics RAS Drone
 
 **Multi-sensor aerial search-and-rescue platform**
 
-> An onboard sensing and perception system designed for search-and-rescue scenarios with limited connectivity and visibility.
+An onboard sensing and perception system designed for low-connectivity and low-visibility environments.
 
 - Raspberry Pi 4 onboard processing
 - RGB + thermal + mmWave sensing
-- MLX90640 thermal array and LD2450 radar
+- MLX90640 thermal array
+- LD2450 radar
 - YOLO-based human detection
-- Sensor-fusion pipeline for survivor detection
-- Live telemetry and OSD through an FPV video system
+- Sensor fusion + live telemetry
 
-`Raspberry Pi` `STM32` `YOLO` `Thermal Imaging` `Radar` `Robotics`
+`Raspberry Pi` `STM32` `YOLO` `Robotics`
+
+[**View repository →**](https://github.com/asronal/SkyNetics-RAS-drone)
 
 **Status:** Active development
 
----
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
 
-### 03 · [Obstacle & Pothole Detection](https://github.com/asronal/Obstacle-and-Pothole-detection-model)
+### 03 · Road Perception
 
-**Real-time Edge AI road perception system**
+**Obstacle & pothole detection with Edge AI**
 
-> Computer vision for detecting road obstacles and potholes on resource-constrained hardware.
+Computer vision for detecting road obstacles and potholes on resource-constrained hardware.
 
-- YOLO-based detection model deployed through ONNX
-- Raspberry Pi camera and USB/video/image inputs
-- Real-time obstacle and pothole detection
-- Spatial filtering and detection cooldown logic
-- CPU-optimized inference reaching approximately **5–7 FPS** on Raspberry Pi 4
+- YOLO-based detection
+- ONNX deployment
+- OpenCV / NCNN inference
+- Raspberry Pi camera pipeline
+- Spatial filtering + cooldown logic
+- ~5–7 FPS on Raspberry Pi 4
 
-`YOLO` `ONNX` `OpenCV` `NCNN` `Raspberry Pi` `Computer Vision`
+`YOLO` `ONNX` `NCNN` `OpenCV`
+
+[**View repository →**](https://github.com/asronal/Obstacle-and-Pothole-detection-model)
 
 **Status:** Working prototype
+
+</td>
+<td width="50%" valign="top">
+
+### Engineering Direction
+
+**Hardware × Software × AI**
+
+I am particularly interested in systems where the algorithm and hardware are designed together rather than optimized independently.
+
+```text
+Sensors
+   ↓
+Embedded Compute
+   ↓
+Edge AI / DSP
+   ↓
+Decision & Control
+   ↓
+Hardware Acceleration
+```
+
+`Embedded` `Edge AI` `RISC-V` `RTL` `Robotics`
+
+</td>
+</tr>
+</table>
 
 ---
 
@@ -134,23 +175,31 @@ My work ranges from deploying computer-vision models on resource-constrained dev
 
 ## Current Work
 
-```text
-RISC-V MCU / SoC
-├── CPU architecture & RTL
-├── Memory subsystem
-├── DSP / SIMD / MAC acceleration
-└── INT8 AI accelerator
+<table>
+<tr>
+<td width="33%" valign="top">
 
-Edge AI
-├── Real-time computer vision
-├── Model optimization
-└── TinyML on constrained hardware
+**RISC-V MCU / SoC**
 
-Robotics
-├── Multi-sensor perception
-├── Onboard processing
-└── Search & rescue systems
-```
+CPU architecture, RTL integration, memory systems, DSP and INT8 acceleration.
+
+</td>
+<td width="33%" valign="top">
+
+**Edge AI**
+
+Real-time computer vision, model optimization and TinyML on constrained hardware.
+
+</td>
+<td width="33%" valign="top">
+
+**Robotics**
+
+Multi-sensor perception, onboard processing and search-and-rescue systems.
+
+</td>
+</tr>
+</table>
 
 ---
 
@@ -158,8 +207,15 @@ Robotics
 
 <div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api?username=asronal&show_icons=true&hide_border=true&include_all_commits=false&count_private=false&title_color=222222&text_color=555555&icon_color=444444&bg_color=ffffff" height="165" />
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=asronal&layout=compact&hide_border=true&include_all_commits=false&count_private=false&title_color=222222&text_color=555555&bg_color=ffffff" height="165" />
+[![GitHub Stats](https://github-readme-stats.vercel.app/api?username=asronal&show_icons=true&hide_border=true&include_all_commits=false&count_private=false&rank_icon=github&cache_seconds=86400)](https://github.com/asronal)
+
+[![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=asronal&layout=compact&hide_border=true&langs_count=6&cache_seconds=86400)](https://github.com/asronal?tab=repositories)
+
+</div>
+
+<div align="center">
+
+**Explore the code →** [github.com/asronal](https://github.com/asronal)
 
 </div>
 
