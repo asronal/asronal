@@ -211,6 +211,10 @@ Real-time computer vision, model optimization, onboard processing and multi-sens
 
 <div align="center">
 
+### Contribution Activity
+
+[![Asron's GitHub activity graph](https://github-readme-activity-graph.vercel.app/graph?username=asronal&theme=github-compact&hide_border=true&area=true)](https://github.com/asronal)
+
 ### Selected Repositories
 
 | Project | Focus | Status |
@@ -222,8 +226,6 @@ Real-time computer vision, model optimization, onboard processing and multi-sens
 [![GitHub](https://img.shields.io/badge/Explore%20all%20repositories-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/asronal?tab=repositories)
 
 </div>
-
-> **Note:** The profile intentionally avoids third-party GitHub statistics cards so the README does not depend on an external stats service being available.
 
 ---
 
