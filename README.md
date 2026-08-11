@@ -29,7 +29,7 @@ My work ranges from deploying computer-vision models on resource-constrained dev
 | **Edge AI** | YOLO · ONNX · NCNN · OpenCV · TinyML · inference optimization |
 | **Computer Vision** | Real-time detection · vision pipelines · spatial filtering |
 | **Robotics** | Multi-sensor systems · aerial platforms · onboard processing |
-| **Digital Design** | Verilog · SystemVerilog · RTL · FPGA · RISC-V |
+| **Digital Design** | Verilog · RTL · FPGA · RISC-V |
 | **Computer Architecture** | CPU pipelines · memory systems · DSP · SIMD · AI accelerators |
 | **ASIC Design** | Synthesis · timing constraints · QoR analysis · Synopsys Design Compiler |
 
@@ -140,10 +140,9 @@ Hardware Acceleration
 ### Languages
 
 ![C](https://img.shields.io/badge/C-222222?style=flat-square&logo=c&logoColor=white)
-![C++](https://img.shields.io/badge/C%2B%2B-222222?style=flat-square&logo=cplusplus&logoColor=white)
 ![Python](https://img.shields.io/badge/Python-222222?style=flat-square&logo=python&logoColor=white)
+![Java](https://img.shields.io/badge/Java-222222?style=flat-square&logo=openjdk&logoColor=white)
 ![Verilog](https://img.shields.io/badge/Verilog-222222?style=flat-square&logoColor=white)
-![SystemVerilog](https://img.shields.io/badge/SystemVerilog-222222?style=flat-square&logoColor=white)
 
 ### Embedded & Hardware
 
@@ -213,7 +212,7 @@ Real-time computer vision, model optimization, onboard processing and multi-sens
 
 ### Contribution Activity
 
-[![Asron's GitHub activity graph](https://github-readme-activity-graph.vercel.app/graph?username=asronal&bg_color=0d1117&color=8b949e&line=8b949e&point=c9d1d9&area=true&area_color=484f58&hide_border=true)](https://github.com/asronal)
+[![Asron's GitHub activity graph](https://github-readme-activity-graph.vercel.app/graph?username=asronal&bg_color=0d1117&color=9ca3af&line=9ca3af&point=c9d1d9&area_color=30363d&area=true&hide_border=true)](https://github.com/asronal)
 
 ### Selected Repositories
 
