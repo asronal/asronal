@@ -114,28 +114,6 @@ My work spans from deploying computer-vision models on Raspberry Pi to designing
 
 ---
 
-## Engineering Interests
-
-```text
-Embedded Systems
-      │
-      ├── Edge AI ─────── Computer Vision
-      │                       │
-      │                       └── Real-time inference
-      │
-      ├── Robotics ─────── Multi-sensor systems
-      │                       │
-      │                       └── Autonomous platforms
-      │
-      └── Digital Design ── RISC-V / RTL
-                              │
-                              ├── DSP / SIMD
-                              ├── AI accelerators
-                              └── ASIC implementation
-```
-
----
-
 ## GitHub Stats
 
 ![](https://github-readme-stats.vercel.app/api?username=asronal&theme=graywhite&hide_border=true&include_all_commits=false&count_private=false&title_color=333333&text_color=555555&icon_color=777777&bg_color=f5f5f5)
