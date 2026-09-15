@@ -17,7 +17,7 @@
 
 I am an ECE student focused on building **hardware-integrated, compute-efficient systems** across embedded systems, edge AI, robotics, digital design, and computer architecture.
 
-My work ranges from deploying computer-vision models on resource-constrained devices to designing RTL for a custom **RV64 AI-oriented MCU/SoC**.
+My work spans deploying computer-vision models on resource-constrained devices, building embedded Linux systems with Buildroot, and designing RTL for custom **RISC-V AI-oriented MCUs/SoCs**.
 
 ---
 
@@ -26,8 +26,9 @@ My work ranges from deploying computer-vision models on resource-constrained dev
 | Area | Focus |
 |---|---|
 | **Embedded Systems** | Raspberry Pi · NXP MCX · ARM Cortex-M33 · STM32 · ESP32 · Linux |
+| **Embedded Linux** | Buildroot · custom root filesystems · networking · SSH · Wayland/Weston · system utilities |
 | **Edge AI** | YOLO · ONNX · NCNN · OpenCV · TinyML · inference optimization |
-| **Computer Vision** | Real-time detection · vision pipelines · spatial filtering |
+| **Computer Vision** | Real-time detection · camera pipelines · spatial filtering · sensor fusion |
 | **Robotics** | Multi-sensor systems · aerial platforms · onboard processing |
 | **Digital Design** | Verilog · RTL · FPGA · RISC-V |
 | **Computer Architecture** | CPU pipelines · memory systems · DSP · SIMD · AI accelerators |
@@ -45,16 +46,18 @@ My work ranges from deploying computer-vision models on resource-constrained dev
 
 **Custom RV64 AI-oriented MCU/SoC**
 
-A RISC-V based microcontroller architecture with integrated DSP and AI acceleration.
+A modular RISC-V SoC combining a processor core, memory hierarchy, DSP engines, INT8 tensor acceleration, peripherals, security, debug and ASIC synthesis support.
 
-- 5-stage RV64IMC CPU
-- SIMD + MAC DSP subsystem
+- RV64IMC 5-stage pipeline
+- 128-bit SIMD + MAC DSP subsystem
 - 16×16 INT8 systolic TPU
-- SRAM / ROM / cache / QSPI / PSRAM
-- DMA, USB, CAN FD and common MCU peripherals
-- RTL → synthesis → timing flow
+- Tensor SRAM + tensor DMA
+- Boot ROM, SRAM, I/D caches, QSPI Flash and PSRAM
+- GPIO, UART, SPI, I²C, PWM, ADC, USB and CAN FD
+- Security, crypto, debug, trace and performance blocks
+- RTL, verification and Synopsys Design Compiler handoff flow
 
-`RISC-V` `Verilog` `RTL` `DSP` `ASIC`
+`RISC-V` `Verilog` `RTL` `DSP` `AI Acceleration` `ASIC`
 
 [**View repository →**](https://github.com/asronal/RV64-AI-MCU)
 
@@ -67,16 +70,19 @@ A RISC-V based microcontroller architecture with integrated DSP and AI accelerat
 
 **Multi-sensor aerial search-and-rescue platform**
 
-An onboard sensing and perception system designed for low-connectivity and low-visibility environments.
+An onboard perception system for detecting humans in avalanche and landslide environments using RGB vision, thermal sensing and mmWave radar.
 
 - Raspberry Pi 4 onboard processing
-- RGB + thermal + mmWave sensing
+- Pi Camera Module 3
 - MLX90640 thermal array
-- LD2450 radar
-- YOLO-based human detection
-- Sensor fusion + live telemetry
+- LD2450 mmWave radar
+- YOLOv8 ONNX human detection
+- SORT tracking and sensor fusion
+- Live OSD with bounding boxes, thermal and radar views
+- BotWing F722 flight-controller telemetry
+- Offline operation and analog video output
 
-`Raspberry Pi` `STM32` `YOLO` `Robotics`
+`Raspberry Pi` `STM32` `YOLO` `ONNX` `Robotics` `Sensor Fusion`
 
 [**View repository →**](https://github.com/asronal/SkyNetics-RAS-drone)
 
@@ -87,7 +93,33 @@ An onboard sensing and perception system designed for low-connectivity and low-v
 <tr>
 <td width="50%" valign="top">
 
-### 03 · Road Perception
+### 03 · Astro OS
+
+**Custom embedded Linux distribution for Raspberry Pi 4**
+
+An experimental AArch64 Linux distribution built from scratch with Buildroot, focused on understanding the complete embedded Linux system stack.
+
+- Raspberry Pi 4 AArch64 target
+- Linux 6.12.x + BusyBox
+- Custom ext4 root filesystem
+- Ethernet + DHCP + Wi-Fi
+- OpenSSH server/client
+- Mesa3D + Wayland + Weston
+- Custom `/etc/os-release` and userspace configuration
+- Dedicated non-root `astro` user
+- Custom `astro-info` system utility
+- Custom login environment and MOTD
+
+`Buildroot` `Linux` `AArch64` `Raspberry Pi` `Embedded Linux`
+
+[**View repository →**](https://github.com/asronal/Astro_OS)
+
+**Status:** v0.7.0 · Physical hardware validation pending
+
+</td>
+<td width="50%" valign="top">
+
+### 04 · Road Perception
 
 **Obstacle & pothole detection with Edge AI**
 
@@ -98,18 +130,21 @@ Computer vision for detecting road obstacles and potholes on resource-constraine
 - OpenCV / NCNN inference
 - Raspberry Pi camera pipeline
 - Spatial filtering + cooldown logic
-- ~5–7 FPS on Raspberry Pi 4
+- Resource-constrained edge inference
 
-`YOLO` `ONNX` `NCNN` `OpenCV`
+`YOLO` `ONNX` `NCNN` `OpenCV` `Edge AI`
 
 [**View repository →**](https://github.com/asronal/Obstacle-and-Pothole-detection-model)
 
 **Status:** Working prototype
 
 </td>
-<td width="50%" valign="top">
+</tr>
+</table>
 
-### Engineering Direction
+---
+
+## Engineering Direction
 
 **Hardware × Software × AI**
 
@@ -125,13 +160,11 @@ Edge AI / DSP
 Decision & Control
    ↓
 Hardware Acceleration
+   ↓
+Custom Silicon
 ```
 
-`Embedded` `Edge AI` `RISC-V` `RTL` `Robotics`
-
-</td>
-</tr>
-</table>
+`Embedded` `Embedded Linux` `Edge AI` `RISC-V` `RTL` `Robotics`
 
 ---
 
@@ -168,6 +201,10 @@ Hardware Acceleration
 
 `RISC-V` `RTL Design` `5-Stage Pipelines` `DSP` `SIMD` `MAC` `INT8 AI Acceleration` `Memory Systems` `ASIC Synthesis`
 
+### Embedded Linux
+
+`Buildroot` `Linux Kernel` `BusyBox` `AArch64` `Networking` `SSH` `Wayland` `Weston` `DRM/KMS`
+
 ### Tools
 
 ![Git](https://img.shields.io/badge/Git-222222?style=flat-square&logo=git&logoColor=white)
@@ -180,23 +217,30 @@ Hardware Acceleration
 
 <table>
 <tr>
-<td width="33%" valign="top">
+<td width="25%" valign="top">
 
-**ARM / MCU Development**
+**ARM / MCU**
 
-Learning embedded development on the **NXP FRDM-MCXN236**, using the Arm Cortex-M33, MCUXpresso SDK and MCUXpresso Extension for VS Code.
-
-</td>
-<td width="33%" valign="top">
-
-**RISC-V MCU / SoC**
-
-CPU architecture, RTL integration, memory systems, DSP and INT8 acceleration.
+Bare-metal embedded development on the **NXP FRDM-MCXN236**, using Cortex-M33 and the MCUXpresso SDK.
 
 </td>
-<td width="33%" valign="top">
+<td width="25%" valign="top">
 
-**Edge AI & Robotics**
+**RISC-V SoC**
+
+CPU architecture, RTL integration, memory systems, DSP, AI acceleration and synthesis.
+
+</td>
+<td width="25%" valign="top">
+
+**Embedded Linux**
+
+Buildroot-based Linux systems for Raspberry Pi, including networking, SSH, graphics and custom userspace.
+
+</td>
+<td width="25%" valign="top">
+
+**Edge AI / Robotics**
 
 Real-time computer vision, model optimization, onboard processing and multi-sensor perception.
 
@@ -220,6 +264,7 @@ Real-time computer vision, model optimization, onboard processing and multi-sens
 |:---|:---|:---:|
 | **[RV64-AI-MCU](https://github.com/asronal/RV64-AI-MCU)** | RISC-V · RTL · DSP · AI acceleration | `ACTIVE` |
 | **[SkyNetics RAS Drone](https://github.com/asronal/SkyNetics-RAS-drone)** | Embedded · Robotics · Sensor fusion | `ACTIVE` |
+| **[Astro OS](https://github.com/asronal/Astro_OS)** | Buildroot · Embedded Linux · Raspberry Pi 4 | `v0.7.0` |
 | **[Obstacle & Pothole Detection](https://github.com/asronal/Obstacle-and-Pothole-detection-model)** | YOLO · Edge AI · Computer Vision | `PROTOTYPE` |
 
 [![GitHub](https://img.shields.io/badge/Explore%20all%20repositories-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/asronal?tab=repositories)
@@ -233,6 +278,7 @@ Real-time computer vision, model optimization, onboard processing and multi-sens
 - Embedded Systems internships
 - Edge AI / Computer Vision internships
 - RTL / FPGA / Digital Design internships
+- Embedded Linux development
 - Robotics and autonomous-systems opportunities
 - Research and engineering collaborations
 - Open-source hardware and software projects
@@ -241,7 +287,7 @@ Real-time computer vision, model optimization, onboard processing and multi-sens
 
 <div align="center">
 
-### Embedded Systems · ARM · Edge AI · RISC-V · RTL · Robotics
+### Embedded Systems · ARM · Embedded Linux · Edge AI · RISC-V · RTL · Robotics
 
 **From sensors to software to silicon.**
 
